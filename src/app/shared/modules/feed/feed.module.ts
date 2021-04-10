@@ -12,8 +12,8 @@ import {ErrorMessageModule} from 'src/app/shared/modules/errorMessage/errorMessa
 import {LoadingModule} from 'src/app/shared/modules/loading/loading.module'
 import {PaginationModule} from 'src/app/shared/modules/pagination/pagination.module'
 import {TagListModule} from '../tagList/tagList.module'
-/* import {AddToFavoriteModule} from '../addToFavorites/addToFavorites.module'
- */
+import {AddToFavoriteModule} from '../addToFavorites/addToFavorites.module'
+
 @NgModule({
   imports: [
     CommonModule,
@@ -23,8 +23,8 @@ import {TagListModule} from '../tagList/tagList.module'
     ErrorMessageModule,
     LoadingModule,
     PaginationModule,
-    TagListModule/* ,
-    AddToFavoriteModule */
+    TagListModule,
+    AddToFavoriteModule
   ],
   declarations: [FeedComponent],
   exports: [FeedComponent],
